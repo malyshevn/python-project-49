@@ -5,3 +5,4 @@ After completing all the steps in the project, automatic tests will become avail
 The hexlet-check.yml file is responsible for running these tests - do not delete this file, edit it, or rename the repository.
 
 <a href="https://codeclimate.com/github/malyshevn/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6ad2e29b6c867d61399/maintainability" /></a>
+<a href="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc" target="_blank"><img src="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc.svg" /></a>
