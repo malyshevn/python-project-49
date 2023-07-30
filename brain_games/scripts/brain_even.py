@@ -30,7 +30,6 @@ def main():
             break
         else:
             print(f"{answer} is a wrong answer! Try again")
-            count = 0
             break
 
     if count == 3:
