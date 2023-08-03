@@ -28,7 +28,7 @@ def gcd_fun():
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     right_answer = gcd(first_number, second_number)
-    print(f"Question: {first_number, second_number}")
+    print(f"Question: {first_number} {second_number}")
     return right_answer
 
 
