@@ -34,7 +34,7 @@ def random():
     right_answer = my_list[index]
     my_list.insert(index, "..")
     my_list.pop(index + 1)
-    question_string = " ".join(str(item) for item in my_list)
+    question_string = " ".join(str(element) for element in my_list)
     print(f"Question: {question_string}")
     return right_answer
 
