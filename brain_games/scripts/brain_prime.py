@@ -10,7 +10,7 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
     while count != 3:
-        num = randint(1, 10)
+        num = randint(1, 100)
         correct_answer = "yes" if is_prime(num) else "no"
         print(f"Question: {num}")
         answer = prompt.string("Your answer: ")
