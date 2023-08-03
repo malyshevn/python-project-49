@@ -18,18 +18,18 @@ def main():
             print("Correct")
             count += 1
         elif answer == "yes" and random_number%2 != 0:
-            print(f"{answer} is a wrong answer!")
+            print(f"{answer} is a wrong answer! Let's try again, {name}!")
             count = 0
             break
         elif answer == "no" and random_number%2 != 0:
             print("Correct!")
             count += 1
         elif answer == "no" and random_number%2 == 0:
-            print(f"{answer} is a wrong answer!")
+            print(f"{answer} is a wrong answer! Let's try again, {name}!")
             count = 0
             break
         else:
-            print(f"{answer} is a wrong answer! Try again")
+            print(f"{answer} is a wrong answer! Let's try again, {name}!")
             break
 
     if count == 3:
