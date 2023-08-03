@@ -21,7 +21,7 @@ def main():
             print("Correct!")
             count += 1
         else:
-            defeat(answer, random_number, name)
+            defeat(answer, 'yes' if is_even(random_number) else 'no', name)
             break
 
     if count == 3:
