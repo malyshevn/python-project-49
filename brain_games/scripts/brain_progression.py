@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from brain_games.dialog.defeat import defeat
 from brain_games.cli import welcome_user
-from random import randint, choice
+from random import randint
 import prompt
 
 
@@ -22,9 +22,10 @@ def main():
     if count == 3:
         print(f"Congratulations, {name}!")
 
+
 def random():
     length = randint(5, 10)
-    d = randint (2, 5)
+    d = randint(2, 5)
     progression_start = randint(5, 30)
     my_list = [progression_start]
     for i in range(length):
