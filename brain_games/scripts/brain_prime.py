@@ -19,6 +19,8 @@ def main():
             print("Correct!")
         else:
             defeat(answer, correct_answer, name)
+            count = 0
+            break
     if count == 3:
         print(f"Congratulations, {name}!")
 
