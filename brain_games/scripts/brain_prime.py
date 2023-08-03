@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from brain_games.cli import welcome_user
+from brain_games.dialog.defeat import defeat
 from random import randint
 import prompt
 
@@ -17,9 +18,7 @@ def main():
             count += 1
             print("Correct!")
         else:
-            print(f"{answer} is wrong answer! ;(")
-            count = 0
-            break
+            defeat(answer, correct_answer, name)
     if count == 3:
         print(f"Congratulations, {name}!")
 
