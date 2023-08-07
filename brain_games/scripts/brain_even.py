@@ -29,7 +29,7 @@ def main():
 
 
 def is_even(number):
-    return number % 2
+    return number % 2 == 0
 
 
 if __name__ == '__main__':
