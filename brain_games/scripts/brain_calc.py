@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.engine import engine
-from brain_games.games.calc import text, random_numbers
+from brain_games.games import brain_calc
+
 
 def main():
-    engine()
+    engine(brain_calc)
 
 
 if __name__ == "__main__":

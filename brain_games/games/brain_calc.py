@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user
 from random import randint, choice
-import prompt
-
-text = "What is the result of the expression?"
 
 
-def random_numbers():
+description = "What is the result of the expression?"
+
+
+def game_data():
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     operators = ["+", "-", "*"]
@@ -14,5 +13,5 @@ def random_numbers():
 
     expression = f"{first_number} {operator} {second_number}"
     correct_answer = eval(expression)
-    question = (f"Question: {first_number} {operator} {second_number}")
-    return correct_answer, question
+    question = (f"{first_number} {operator} {second_number}")
+    return question, correct_answer

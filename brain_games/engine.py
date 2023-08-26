@@ -1,34 +1,23 @@
-from cli import welcome_user
-import prompt
+from brain_games.utils import defeat, congratulationts, welcome_user
 
 
-def congratulationts(name):
-    print(f"Congratulations, {name}!")
-    return name
-
-
-def defeat(answer, correct_answer, name):
-    print(f"{answer} is wrong answer ;(. Correct answer was {correct_answer}")
-    print(f"Let's try again, {name}!")
-
-
-def engine(description, question_and_answer):
+def engine(game=None):
     name = welcome_user()
-    print(description)
+    if game is None:
+        return
+    print(game.description)
 
     count = 0
     while count != 3:
-        question, correct_answer = question_and_answer
-        print(question)
+        question, correct_answer = game.game_data()
+        print(f"Question: {question}")
         answer = input("Your answer: ")
-
-        if answer == correct_answer:
+        if answer == str(correct_answer):
             count += 1
             print("Correct!")
         else:
             defeat(answer, correct_answer, name)
             count = 0
             break
-
-    if count == 3:
-        print(f"Congratulations, {name}!")
+        if count == 3:
+            congratulationts(name)
