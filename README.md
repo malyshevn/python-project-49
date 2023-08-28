@@ -7,9 +7,9 @@
 My first Hexlet project - five quiz games, based on math and logic
 
 ### Download:
-pip install --user git+https://github.com/malyshevn/python-project-49
+`pip install --user git+https://github.com/malyshevn/python-project-49`
 
-To play each game use a short command (brain-even, brain-calc etc.)
+***To play each game use a short command (brain-even, brain-calc etc.)***
 
 Brain even
 <a href="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc" target="_blank"><img src="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc.svg" /></a>
