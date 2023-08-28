@@ -1,10 +1,10 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/malyshevn/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/malyshevn/python-project-49/actions)
-
-
-My first Hexlet project - five quiz games, based on math and logic
-
 <a href="https://codeclimate.com/github/malyshevn/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6ad2e29b6c867d61399/maintainability" /></a>
+
+
+### Brain Games
+My first Hexlet project - five quiz games, based on math and logic
 
 Brain even
 <a href="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc" target="_blank"><img src="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc.svg" /></a>
@@ -16,3 +16,9 @@ Brain progression
 <a href="https://asciinema.org/a/EVAzk5yLUfLmL3D1y7lWTjCFt" target="_blank"><img src="https://asciinema.org/a/EVAzk5yLUfLmL3D1y7lWTjCFt.svg" /></a>
 Brain prime
 <a href="https://asciinema.org/a/NRPCJE3x21s0pPkp8HijG53EB" target="_blank"><img src="https://asciinema.org/a/NRPCJE3x21s0pPkp8HijG53EB.svg" /></a>
+
+### Download:
+pip install --user git+https://github.com/malyshevn/python-project-49
+
+
+To play each game use a short command (brain-even, brain-calc etc.)
