@@ -1,10 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/malyshevn/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/malyshevn/python-project-49/actions)
 
-Brain-games
+
 My first Hexlet project - five quiz games, based on math and logic
 
 <a href="https://codeclimate.com/github/malyshevn/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6ad2e29b6c867d61399/maintainability" /></a>
+
 Brain even
 <a href="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc" target="_blank"><img src="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc.svg" /></a>
 Brain calc
