@@ -6,6 +6,11 @@
 ### Brain Games
 My first Hexlet project - five quiz games, based on math and logic
 
+### Download:
+pip install --user git+https://github.com/malyshevn/python-project-49
+
+To play each game use a short command (brain-even, brain-calc etc.)
+
 Brain even
 <a href="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc" target="_blank"><img src="https://asciinema.org/a/r3iCOXJ92zKmw8aijTXip0pLc.svg" /></a>
 Brain calc
@@ -16,9 +21,3 @@ Brain progression
 <a href="https://asciinema.org/a/EVAzk5yLUfLmL3D1y7lWTjCFt" target="_blank"><img src="https://asciinema.org/a/EVAzk5yLUfLmL3D1y7lWTjCFt.svg" /></a>
 Brain prime
 <a href="https://asciinema.org/a/NRPCJE3x21s0pPkp8HijG53EB" target="_blank"><img src="https://asciinema.org/a/NRPCJE3x21s0pPkp8HijG53EB.svg" /></a>
-
-### Download:
-pip install --user git+https://github.com/malyshevn/python-project-49
-
-
-To play each game use a short command (brain-even, brain-calc etc.)
