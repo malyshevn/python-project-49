@@ -2,10 +2,8 @@
 [![Actions Status](https://github.com/malyshevn/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/malyshevn/python-project-49/actions)
 <a href="https://codeclimate.com/github/malyshevn/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6ad2e29b6c867d61399/maintainability" /></a>
 
-
 ### Brain Games
 My first Hexlet project - five quiz games, based on math and logic
-
 ### Download:
 `pip install --user git+https://github.com/malyshevn/python-project-49`
 
