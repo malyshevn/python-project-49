@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 from random import randint
 
 
-description = "What number is missing in the progression?!"
+DESCRIPTION = "What number is missing in the progression?!"
 
 
-def game_data():
+def get_question_and_right_answer():
     length = randint(5, 10)
     d = randint(2, 5)
     progression_start = randint(5, 30)

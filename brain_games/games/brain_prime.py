@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 from random import randint
 
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_data():
+def get_question_and_right_answer():
     num = randint(1, 100)
     correct_answer = "yes" if is_prime(num) else "no"
     question = num

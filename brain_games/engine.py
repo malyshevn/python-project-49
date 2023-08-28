@@ -1,15 +1,33 @@
-from brain_games.utils import defeat, congratulationts, welcome_user
+import prompt
 
 
-def engine(game=None):
+POINTS = 3
+
+
+def welcome_user():
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ')
+    print(f"Hello, {name}")
+    return name
+
+
+def congratulationts(name):
+    print(f"Congratulations, {name}!")
+    return name
+
+
+def defeat(answer, correct_answer, name):
+    print(f"{answer} is wrong answer ;(. Correct answer was {correct_answer}")
+    print(f"Let's try again, {name}!")
+
+
+def engine(game):
     name = welcome_user()
-    if game is None:
-        return
-    print(game.description)
+    print(game.DESCRIPTION)
 
     count = 0
-    while count != 3:
-        question, correct_answer = game.game_data()
+    while count != POINTS:
+        question, correct_answer = game.get_question_and_right_answer()
         print(f"Question: {question}")
         answer = input("Your answer: ")
         if answer == str(correct_answer):
@@ -18,6 +36,6 @@ def engine(game=None):
         else:
             defeat(answer, correct_answer, name)
             count = 0
-            break
-        if count == 3:
-            congratulationts(name)
+            return
+
+    congratulationts(name)

@@ -1,12 +1,11 @@
-#!/usr/bin/env python3
 from random import randint
 from math import gcd
 
 
-description = "Find the greatest common divisor of given numbers."
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
-def game_data():
+def get_question_and_right_answer():
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     correct_answer = gcd(first_number, second_number)
