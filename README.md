@@ -4,6 +4,11 @@
 
 ### Brain Games
 My first Hexlet project - five quiz games, based on math and logic
+- Brain even - Checking whether number is even
+- Brain calc - Calctulator game
+- Brain gcd - Finding greates common divisor
+- Brain progression - Finding missing progression element
+- Brain Prime - Checking whether number is prime
 ### Download:
 `pip install --user git+https://github.com/malyshevn/python-project-49`
 
